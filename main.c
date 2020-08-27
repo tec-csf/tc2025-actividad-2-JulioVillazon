@@ -91,6 +91,7 @@ int main (int arc, const char * argv[]){
   
 
   free(vector);
+  free(vectorf);
   for (; libAux < (lib + M); ++libAux)
   {
     free(libAux -> titulo);
